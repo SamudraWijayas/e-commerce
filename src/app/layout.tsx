@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   authors: [{ name: "NdesStore" }],
 
   openGraph: {
-    title: "NdesStore - Fashion & Jersey Terbaik",
+    title: "NdesStore - Belanja Online Terpercaya",
     description:
       "Temukan berbagai produk fashion terbaik di NdesStore dengan harga bersaing dan kualitas premium.",
     url: "https://store.jokindes.com",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "NdesStore - Fashion & Jersey Terbaik",
+    title: "NdesStore - Belanja Online Terpercaya",
     description:
       "Belanja jersey, pakaian, sepatu, dan tas terbaik hanya di NdesStore.",
     images: ["/opengraph-image.png"],

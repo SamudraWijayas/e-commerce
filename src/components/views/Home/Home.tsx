@@ -7,9 +7,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Headphones,
-  MessageCircle,
   ShieldCheck,
-  ShoppingCart,
   Truck,
 } from "lucide-react";
 import Image from "next/image";
@@ -283,7 +281,7 @@ const Home = () => {
         href="https://wa.me/6287718517731"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 bg-green-500 w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:scale-110 transition"
+        className="fixed bottom-6 right-6 z-20 bg-green-500 w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:scale-110 transition"
       >
         <svg
           className="h-7 w-7 text-white"

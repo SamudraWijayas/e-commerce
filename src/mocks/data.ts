@@ -113,7 +113,7 @@ export const products = [
     price: 199900,
     images: [
       "/images/products/sepatu-pria-1.jpg",
-      "/images/products/sepatu-pria-3.jpg",
+      "/images/products/sepatu-pria-2.jpg",
     ],
     rating: 4.9,
     sold: 90,
