@@ -1,10 +1,13 @@
 import LandingPageLayout from "@/components/layout/LandingPage/LandingPageLayout";
-import Homes from "@/components/views/Home/Home"
+import Product from "@/components/views/Product/Product";
+import React from "react";
 
-export default function Home() {
+const page = () => {
   return (
     <LandingPageLayout>
-      <Homes/>
+      <Product />
     </LandingPageLayout>
   );
-}
+};
+
+export default page;
