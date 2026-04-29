@@ -17,10 +17,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://jokindes.com"), // ganti kalau sudah deploy
+  metadataBase: new URL("https://store.jokindes.com"), // ganti kalau sudah deploy
 
   title: {
-    default: "NdesStore - Fashion & Jersey Terbaik",
+    default: "NdesStore - Belanja Online Terpercaya",
     template: "%s | NdesStore",
   },
 
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "NdesStore - Fashion & Jersey Terbaik",
     description:
       "Temukan berbagai produk fashion terbaik di NdesStore dengan harga bersaing dan kualitas premium.",
-    url: "http://localhost:3000",
+    url: "https://store.jokindes.com",
     siteName: "NdesStore",
     images: [
       {
