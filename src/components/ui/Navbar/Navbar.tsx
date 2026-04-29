@@ -10,12 +10,11 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Select } from "@radix-ui/themes";
 import { category } from "@/mocks/data";
 import { usePathname, useRouter } from "next/navigation";
-import { useSearch } from "@/contexts/SearchContext";
 
 const Navbar = () => {
   const router = useRouter();

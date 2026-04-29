@@ -24,29 +24,48 @@ const Footer = () => {
             {/* TEXT */}
             <div className="leading-tight">
               <p className="text-white text-lg font-semibold tracking-wide group-hover:text-green-400 transition">
-                Ndestours
+                NdesStore
               </p>
-              <p className="text-xs text-gray-400">Tour & Event Organizer</p>
             </div>
           </div>
 
           <p className="text-sm leading-relaxed text-gray-400">
-            Partner terpercaya untuk kebutuhan tour & event Anda. Kami
-            menghadirkan pengalaman perjalanan, gathering, dan event yang
-            profesional dan berkesan.
+            NdesStore adalah partner terpercaya untuk kebutuhan fashion Anda.
+            Kami menyediakan berbagai pilihan pakaian, sepatu, tas, dan koleksi
+            menarik dengan kualitas terbaik dan harga terjangkau.
           </p>
+        </div>
+
+        {/* COMPANY */}
+        <div>
+          <h4 className="font-semibold text-white mb-4">Navigasi</h4>
+          <ul className="space-y-2">
+            <li>
+              <Link href="/" className="hover:text-green-400 transition">
+                Beranda
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/products"
+                className="hover:text-green-400 transition"
+              >
+                Produk
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog" className="hover:text-green-400 transition">
+                Blog
+              </Link>
+            </li>
+          </ul>
         </div>
 
         {/* SERVICES */}
         <div>
-          <h4 className="font-semibold text-white mb-4">Services</h4>
+          <h4 className="font-semibold text-white mb-4">Marketplace</h4>
           <ul className="space-y-2">
-            {[
-              "Tour & Travel",
-              "Corporate Gathering",
-              "Team Building",
-              "Event Organizer",
-            ].map((item) => (
+            {["Shopee", "Lazada", "Tokopedia"].map((item) => (
               <li
                 key={item}
                 className="text-gray-400 hover:text-green-400 cursor-pointer transition"
@@ -54,33 +73,6 @@ const Footer = () => {
                 {item}
               </li>
             ))}
-          </ul>
-        </div>
-
-        {/* COMPANY */}
-        <div>
-          <h4 className="font-semibold text-white mb-4">Company</h4>
-          <ul className="space-y-2">
-            <li>
-              <Link href="/about" className="hover:text-green-400 transition">
-                About Us
-              </Link>
-            </li>
-            <li>
-              <Link href="/tour" className="hover:text-green-400 transition">
-                Packages
-              </Link>
-            </li>
-            <li>
-              <Link href="/gallery" className="hover:text-green-400 transition">
-                Gallery
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" className="hover:text-green-400 transition">
-                Contact
-              </Link>
-            </li>
           </ul>
         </div>
 
